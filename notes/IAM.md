@@ -17,11 +17,8 @@
 **IAM is a global service.**
 A user I create exists in every region.
 
-**Permissions attach to groups, not users** (similar to Security Groups
-for managing permissions in AD). Keeps the work much more organised.
+**Permissions attach to groups, not users** (similar to Security Groups for managing permissions in AD). Keeps the work much more organised.
 
 **Root is for emergencies only.**
-Root sees only the account ID, not a username. After initial setup
-we stop using it.
+Root sees only the account ID, not a username. After initial setup we stop using it.
 
-### What surprised me
