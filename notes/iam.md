@@ -1,10 +1,10 @@
 # IAM — Identity and Access Management
 
-## Lab: Users, Groups and Policies
+## Users, Groups and Policies
 
 **Date:** 2026-09-04
 
-### What I built
+### What I did
 - IAM user `Doron-Admin` with console access
 - Group `admin` with the `AdministratorAccess` policy
 - Added the user to the group
@@ -14,11 +14,14 @@
 
 ### Key takeaways
 
-**IAM is a global service.** 
+**IAM is a global service.**
 A user I create exists in every region.
 
-**Permissions attach to groups, not users(similar to Security Groups for managing permmissions in AD).** 
-keeps the work much organised.
+**Permissions attach to groups, not users** (similar to Security Groups
+for managing permissions in AD). Keeps the work much more organised.
 
-**Root is for emergencies only.** Root sees only the account ID,
-not a username. After initial setup we stop using it.
+**Root is for emergencies only.**
+Root sees only the account ID, not a username. After initial setup
+we stop using it.
+
+### What surprised me
